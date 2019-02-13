@@ -1,0 +1,137 @@
+QualityBuilder added property to '0' things
+Verse.Log:Message(String, Boolean)
+QualityBuilder.ModInitializerComponent:FixedUpdate()
+
+Loading game from file MSF with mods Core, 818773962, 1095331978, 962732083, 735106432, 715565262, 761421485, 754637870, 1369828656, 946390822, 1474002997, 725153576, 731111514, 709317151, 708455313, 826366050, 712141500, 725219116, 715565817
+Verse.Log:Message(String, Boolean)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow(String)
+Verse.Root_Play:<Start>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[PrepareLanding] WorldLoaded (from save).
+Verse.Log:Message(String, Boolean)
+PrepareLanding.PrepareLanding:WorldLoaded()
+HugsLib.HugsLibController:OnPlayingStateEntered()
+HugsLib.Patches.Game_FinalizeInit_Patch:WorldLoadedHook()
+Verse.Game:FinalizeInit_Patch1(Object)
+Verse.Game:LoadGame()
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow(String)
+Verse.Root_Play:<Start>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[PrepareLanding] OnWorldLoaded
+Verse.Log:Message(String, Boolean)
+PrepareLanding.RimWorldEventHandler:OnWorldLoaded()
+PrepareLanding.PrepareLanding:WorldLoaded()
+HugsLib.HugsLibController:OnPlayingStateEntered()
+HugsLib.Patches.Game_FinalizeInit_Patch:WorldLoadedHook()
+Verse.Game:FinalizeInit_Patch1(Object)
+Verse.Game:LoadGame()
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow(String)
+Verse.Root_Play:<Start>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[PrepareLanding] Prefilter: 295732 tiles in WorldGrid.tiles
+Verse.Log:Message(String, Boolean)
+PrepareLanding.WorldTileFilter:Prefilter()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Took 95 hits (reached lethal damage threshold of 648).
+Verse.Log:Message(String, Boolean)
+Verse.Dialog_DebugActionsMenu:<DoListingItems_MapTools>m__5A()
+Verse.DebugTool:DebugToolOnGUI()
+Verse.DebugTools:DebugToolsOnGUI()
+RimWorld.UIRoot_Play:UIRootOnGUI()
+Verse.Root:OnGUI()
+
+Took 43 hits.
+Verse.Log:Message(String, Boolean)
+Verse.Dialog_DebugActionsMenu:<DoListingItems_MapTools>m__5A()
+Verse.DebugTool:DebugToolOnGUI()
+Verse.DebugTools:DebugToolsOnGUI()
+RimWorld.UIRoot_Play:UIRootOnGUI()
+Verse.Root:OnGUI()
+
+Took 7 hits.
+Verse.Log:Message(String, Boolean)
+Verse.Dialog_DebugActionsMenu:<DoListingItems_MapTools>m__5A()
+Verse.DebugTool:DebugToolOnGUI()
+Verse.DebugTools:DebugToolsOnGUI()
+RimWorld.UIRoot_Play:UIRootOnGUI()
+Verse.Root:OnGUI()
+
+Took 88 hits (reached lethal damage threshold of 648).
+Verse.Log:Message(String, Boolean)
+Verse.Dialog_DebugActionsMenu:<DoListingItems_MapTools>m__5A()
+Verse.DebugTool:DebugToolOnGUI()
+Verse.DebugTools:DebugToolsOnGUI()
+RimWorld.UIRoot_Play:UIRootOnGUI()
+Verse.Root:OnGUI()
+
+Took 9 hits (incapable of Consciousness).
+Verse.Log:Message(String, Boolean)
+Verse.Dialog_DebugActionsMenu:<DoListingItems_MapTools>m__5A()
+Verse.DebugTool:DebugToolOnGUI()
+Verse.DebugTools:DebugToolsOnGUI()
+RimWorld.UIRoot_Play:UIRootOnGUI()
+Verse.Root:OnGUI()
+
+Took 103 hits (incapable of Consciousness).
+Verse.Log:Message(String, Boolean)
+Verse.Dialog_DebugActionsMenu:<DoListingItems_MapTools>m__5A()
+Verse.DebugTool:DebugToolOnGUI()
+Verse.DebugTools:DebugToolsOnGUI()
+RimWorld.UIRoot_Play:UIRootOnGUI()
+Verse.Root:OnGUI()
+
+Took 89 hits (reached lethal damage threshold of 648).
+Verse.Log:Message(String, Boolean)
+Verse.Dialog_DebugActionsMenu:<DoListingItems_MapTools>m__5A()
+Verse.DebugTool:DebugToolOnGUI()
+Verse.DebugTools:DebugToolsOnGUI()
+RimWorld.UIRoot_Play:UIRootOnGUI()
+Verse.Root:OnGUI()
+
+Took 13 hits (reached lethal damage threshold of 108).
+Verse.Log:Message(String, Boolean)
+Verse.Dialog_DebugActionsMenu:<DoListingItems_MapTools>m__5A()
+Verse.DebugTool:DebugToolOnGUI()
+Verse.DebugTools:DebugToolsOnGUI()
+RimWorld.UIRoot_Play:UIRootOnGUI()
+Verse.Root:OnGUI()
+
+Took 4 hits (incapable of Consciousness).
+Verse.Log:Message(String, Boolean)
+Verse.Dialog_DebugActionsMenu:<DoListingItems_MapTools>m__5A()
+Verse.DebugTool:DebugToolOnGUI()
+Verse.DebugTools:DebugToolsOnGUI()
+RimWorld.UIRoot_Play:UIRootOnGUI()
+Verse.Root:OnGUI()
+
+Took 100 hits (reached lethal damage threshold of 648).
+Verse.Log:Message(String, Boolean)
+Verse.Dialog_DebugActionsMenu:<DoListingItems_MapTools>m__5A()
+Verse.DebugTool:DebugToolOnGUI()
+Verse.DebugTools:DebugToolsOnGUI()
+RimWorld.UIRoot_Play:UIRootOnGUI()
+Verse.Root:OnGUI()
+
+Took 93 hits (reached lethal damage threshold of 648).
+Verse.Log:Message(String, Boolean)
+Verse.Dialog_DebugActionsMenu:<DoListingItems_MapTools>m__5A()
+Verse.DebugTool:DebugToolOnGUI()
+Verse.DebugTools:DebugToolsOnGUI()
+RimWorld.UIRoot_Play:UIRootOnGUI()
+Verse.Root:OnGUI()
+
+Took 6 hits (core part hp reached 0).
+Verse.Log:Message(String, Boolean)
+Verse.Dialog_DebugActionsMenu:<DoListingItems_MapTools>m__5A()
+Verse.DebugTool:DebugToolOnGUI()
+Verse.DebugTools:DebugToolsOnGUI()
+RimWorld.UIRoot_Play:UIRootOnGUI()
+Verse.Root:OnGUI()
