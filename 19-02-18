@@ -1,0 +1,345 @@
+RimWorld 1.0.2150 rev801
+Verse.Log:Message(String, Boolean)
+RimWorld.VersionControl:LogVersionNumber()
+Verse.Root:CheckGlobalInit()
+Verse.Root:Start()
+Verse.Root_Entry:Start()
+
+[HugsLib] version 6.1.1
+Verse.Log:Message(String, Boolean)
+HugsLib.Utils.ModLogger:Message(String, Object[])
+HugsLib.HugsLibController:InitializeController()
+HugsLib.HugsLibController:EarlyInitialize()
+HugsLib.Core.HugsLibMod:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[], Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[RuntimeGC] Mod settings loaded.
+Verse.Log:Message(String, Boolean)
+RuntimeGC.RuntimeGC:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[], Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[MadSkills]: settings initialized, multiplier is 0, not tiered, daily XP threshold is 1, saturated XP multiplier is 0.2, Great Memory trait is not altered.
+Verse.Log:Message(String, Boolean)
+RTMadSkills.ModSettings:ExposeData()
+Verse.ScribeExtractor:SaveableFromNode(XmlNode, Object[])
+Verse.Scribe_Deep:Look(ModSettings&, Boolean, String, Object[])
+Verse.Scribe_Deep:Look(ModSettings&, String, Object[])
+Verse.LoadedModManager:ReadModSettings(String, String)
+Verse.Mod:GetSettings()
+RTMadSkills.Mod:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[], Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[MadSkills]: settings initialized, multiplier is 0, not tiered, daily XP threshold is 1, saturated XP multiplier is 2, Great Memory trait is not altered.
+Verse.Log:Message(String, Boolean)
+RTMadSkills.ModSettings:ExposeData()
+Verse.CrossRefHandler:ResolveAllCrossReferences()
+Verse.ScribeLoader:FinalizeLoading()
+Verse.LoadedModManager:ReadModSettings(String, String)
+Verse.Mod:GetSettings()
+RTMadSkills.Mod:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[], Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[MadSkills]: restored behavior of Great Memory trait.
+Verse.Log:Message(String, Boolean)
+RTMadSkills.ModSettingsDefJockey:ApplyChanges(Boolean)
+RTMadSkills.ModSettingsDefJockey:Postfix()
+RimWorld.DefGenerator:GenerateImpliedDefs_PostResolve_Patch1()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Config error in Server: description has trailing whitespace
+Verse.Log:Error(String, Boolean)
+Verse.DefDatabase`1:ErrorCheckAllDefs()
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+Verse.GenGeneric:InvokeStaticMethodOnGenericType(Type, Type, String)
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.Root:<Start>m__1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[PrepareLanding] MonoController Initialization
+Verse.Log:Message(String, Boolean)
+PrepareLanding.MonoController:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+[PrepareLanding] WorldLayerBehaviour Static Initialization
+Verse.Log:Message(String, Boolean)
+PrepareLanding.Core.Gui.World.WorldLayerBehaviour:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+AdjustableTradeShips Harmony Patches:
+  Prefix:
+    Game.InitNewGame
+  Postfix:
+    Storyteller.Notify_DefChanged
+Verse.Log:Message(String, Boolean)
+AdjustableTradeShips.Main:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Type _Designator_SkilledBuilder probably needs a StaticConstructorOnStartup attribute, because it has a field skilled of type Texture2D. All assets must be loaded in the main thread.
+Verse.Log:Warning(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:ReportProbablyMissingAttributes()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+Type TextureChooser probably needs a StaticConstructorOnStartup attribute, because it has a field LeftArrow of type Texture2D. All assets must be loaded in the main thread.
+Verse.Log:Warning(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:ReportProbablyMissingAttributes()
+Verse.PlayDataLoader:<DoPlayLoad>m__2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+[PrepareLanding] MonoController Start
+Verse.Log:Message(String, Boolean)
+PrepareLanding.MonoController:Start()
+
+[PrepareLanding] WorldLayerBehaviour Start
+Verse.Log:Message(String, Boolean)
+PrepareLanding.Core.Gui.World.WorldLayerBehaviour:Start()
+
+[ModMetaDataCleaner] Removed 2 Metadata and cleaned 37 PreviewImage.
+Removed: Killfeed, Killfeed
+Cleaned: Medical Tab, Colony Manager, Work Tab, ResearchPal, EdB Prepare Carefully, HugsLib, QualityBuilder, Allow Tool, Stack XXL, Animal Tab, Blueprints, Relations Tab, Mad Skills, Area Unlocker, Prepare Landing, [KV] Adjustable Trade Ships - 1.0, PhiClient, RuntimeGC, Medical Tab, Colony Manager, Work Tab, ResearchPal, EdB Prepare Carefully, HugsLib, QualityBuilder, Allow Tool, Stack XXL, Animal Tab, Blueprints, Relations Tab, Mad Skills, Area Unlocker, Prepare Landing, [KV] Adjustable Trade Ships - 1.0, PhiClient, RuntimeGC, Core
+Verse.Log:Message(String, Boolean)
+Toolbox.ModMetaDataCleaner:CleanModMetaData()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+[LanguageDataCleaner] Removed 28 LoadedLanguages and cleaned 122 DefInjectionPackages.
+Removed Languages: Chinese, KoreanFastChannel, Українська, Türkçe, Svenska, Español(Latinoamérica), Español(Castellano), Slovenčina, Русский, Română, Português Brasileiro, Português, Polski, Norsk Bokmål, 한국어, 日本語, Italiano, Magyar, Deutsch, Français, Suomi, Eesti, Nederlands, Dansk, Čeština, 繁體中文, 简体中文, Català
+Verse.Log:Message(String, Boolean)
+Toolbox.LanguageDataCleaner:CleanLanguageData()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+[RuntimeGC] Detour completed: MuteGC
+Verse.Log:Message(String, Boolean)
+Mute.<>c__DisplayClass3_0:<Launch>b__0()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+ResearchPal :: Preparing research nodes
+Verse.Log:Message(String, Boolean)
+ResearchPal.Log:Message(String, Object[])
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+ResearchPal :: Reducing crossings
+Verse.Log:Message(String, Boolean)
+ResearchPal.Log:Message(String, Object[])
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+ResearchPal :: Finalizing layout
+Verse.Log:Message(String, Boolean)
+ResearchPal.Log:Message(String, Object[])
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+ResearchPal :: Restoring queue
+Verse.Log:Message(String, Boolean)
+ResearchPal.Log:Message(String, Object[])
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update_Patch1(Object)
+Verse.Root_Entry:Update()
+
+[PrepareLanding] In constructor.
+Verse.Log:Message(String, Boolean)
+HugsLib.Utils.ModLogger:Message(String, Object[])
+PrepareLanding.PrepareLanding:.ctor()
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.ConstructorInfo:Invoke(Object[])
+System.Activator:CreateInstance(Type, Boolean)
+HugsLib.HugsLibController:EnumerateChildMods(Boolean)
+HugsLib.HugsLibController:LoadReloadInitialize()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Try connecting to longwelwind.net
+Verse.Log:Message(String, Boolean)
+PhiClient.PhiClient:Log(LogLevel, String)
+PhiClient.PhiClient:TryConnect()
+PhiClient.PhiInitializer:.ctor()
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.ConstructorInfo:Invoke(Object[])
+System.Activator:CreateInstance(Type, Boolean)
+HugsLib.HugsLibController:EnumerateChildMods(Boolean)
+HugsLib.HugsLibController:LoadReloadInitialize()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[HugsLib] initializing PrepareLanding, AllowTool, Phi, StackXXL
+Verse.Log:Message(String, Boolean)
+HugsLib.Utils.ModLogger:Message(String, Object[])
+HugsLib.HugsLibController:EnumerateChildMods(Boolean)
+HugsLib.HugsLibController:LoadReloadInitialize()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[PrepareLanding] Initializing.
+Verse.Log:Message(String, Boolean)
+HugsLib.Utils.ModLogger:Message(String, Object[])
+PrepareLanding.PrepareLanding:Initialize()
+HugsLib.HugsLibController:LoadReloadInitialize()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[PrepareLanding] Preset folder is at: C:/Users/<redacted>/AppData/LocalLow/Ludeon Studios/RimWorld by Ludeon Studios\PrepareLanding
+Verse.Log:Message(String, Boolean)
+PrepareLanding.Presets.PresetManager:.ctor(GameData)
+PrepareLanding.PrepareLanding:Initialize()
+HugsLib.HugsLibController:LoadReloadInitialize()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[PrepareLanding] Preset template folder is at: D:\Steam\steamapps\workshop\content\294100\1095331978\Presets
+Verse.Log:Message(String, Boolean)
+PrepareLanding.Presets.PresetManager:.ctor(GameData)
+PrepareLanding.PrepareLanding:Initialize()
+HugsLib.HugsLibController:LoadReloadInitialize()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[PrepareLanding] OnDefsLoaded
+Verse.Log:Message(String, Boolean)
+PrepareLanding.RimWorldEventHandler:OnDefsLoaded()
+PrepareLanding.PrepareLanding:DefsLoaded()
+HugsLib.HugsLibController:OnDefsLoaded()
+HugsLib.HugsLibController:LoadReloadInitialize()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[PrepareLanding] GameOptions.OnDefLoaded().
+Verse.Log:Message(String, Boolean)
+PrepareLanding.GameOptions:OnDefLoaded()
+PrepareLanding.RimWorldEventHandler:OnDefsLoaded()
+PrepareLanding.PrepareLanding:DefsLoaded()
+HugsLib.HugsLibController:OnDefsLoaded()
+HugsLib.HugsLibController:LoadReloadInitialize()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+[StackXXL] Loaded
+Verse.Log:Message(String, Boolean)
+HugsLib.Utils.ModLogger:Message(String, Object[])
+StackXXL.StackXXLMod:DefsLoaded()
+HugsLib.HugsLibController:OnDefsLoaded()
+HugsLib.HugsLibController:LoadReloadInitialize()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Disconnected from the server
+Verse.Log:Message(String, Boolean)
+PhiClient.PhiClient:DisconnectCallback()
+SocketLibrary.Client:CloseCallback(Object, CloseEventArgs)
+WebSocketSharp.Ext:Emit(EventHandler`1, Object, CloseEventArgs)
+WebSocketSharp.WebSocket:close(PayloadData, Boolean, Boolean, Boolean)
+WebSocketSharp.WebSocket:fatal(String, UInt16)
+WebSocketSharp.WebSocket:fatal(String, Exception)
+WebSocketSharp.WebSocket:connect()
